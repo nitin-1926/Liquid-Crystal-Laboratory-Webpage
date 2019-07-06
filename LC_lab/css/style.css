@@ -1,0 +1,423 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+    2. Header / #header
+        2.1. Navigation  / #navbar
+            2.1.1. Navigation Style 1 / .header-nav
+            2.1.2. Navigation Style 2 / .header-nav-2
+
+        2.2. Header Contant 
+            2.2.1. Header Background / .header-background
+            2.2.2. Header Style 1 / .header
+            2.2.2. Header Style 2 / .header-2
+
+    3. Map and Contant / #map_contact
+        3.1. Map Show And Hede Button / #map-btn-tab
+        3.2. Map / .map-map
+            3.2.1. Map body / .map-body
+                3.2.1.1. Map show / #map
+
+        3.3. Map contact imformation / .contact-maps-box
+            3.3.1 Button Style / .btn
+            3.3.2. Form Style / form
+
+    4. Defult Form Style / .form-cus
+    5. Social Icon Style / .social-icon
+        5.1. Bold font / strong
+        5.2. ul li a ( custom style ) 
+        5.3. FontAwesome Icon Style / .fa
+
+    6. Contact Address Style / .contact-address
+        6.1. contact Body contant / .address-ul
+            6.1.1. FontAwesome Icon Style / .fa
+
+    7. Pricing Table / #pricing-table
+        7.1. Each table Style / .tabel-single
+            7.1.1. heading / .mata-heading
+            7.1.2. Price / .mata-price
+                7.1.2.1. Carrency / .carrency
+                7.1.2.2. Rate / .rate
+                7.1.2.3. Period / .period
+            7.1.3. List Style / ul, ul li
+            7.1.4. Button Style / .btn
+
+    8. Tstimonials / .testimonials
+        8.1 Background Image / .background-bg
+        8.2 Twitter Logo / .quote-sym
+            8.2.1. FontAwesome Icon Style / .fa
+        8.3 Contant / #sync1
+            8.3.1. Item / .item
+        8.4 Profile / #sync2
+            8.4.1. Item / .item
+
+    9. Subscription and Contact MESSAGE / .message
+    10. Subscription and Contact / .news+letter-bg
+        10.1. News letter body / .news_letter_body
+        10.2. Subscription From / /subscribe-form-inner
+
+    11. Our Work Section / #photogallary
+        11.1.  Magrine Image Gallery / .zoom-gallery
+
+    12.  Defult Hover Style / .grid
+        12.1. Body / .figure
+
+    13. Speakers Section / #speakers
+        13.1. Body Style / .speakers-body
+
+    14. Owl Carousel Custom Style / .owl-page
+    15. Footer / #footer
+        15.1. Footer Body / .footer-body
+        15.2. Footer Social Icon / .social-icon
+        15.3. Copy Right text / .copyright
+
+
+    16. Sponsors / #sponsore
+        16.1. Sponsors List style
+        16.2. Become a sponsors Button / .become-a-sponsor
+
+    17. Our Featured Section / #our-featured
+        17.1. Video / .video
+
+    18. Two Cola Description / .two-cols-description-with-slider 
+        18.1. Slider / .slider-bar
+        18.2. Inner Description / .description-info-inner
+
+    19. Flex Slider Style / .flexslider
+        19.1 Slider Body / .slides
+            19.1.1. Images style / img
+
+    20. Collapse Section / #collapse-area
+        20.1. collapse Section Body / .collapse-inner
+            20.1.1. Collapse Tab / .collapse-tab
+
+    21. Rigister Form / #register
+        21.1. Register Form / .register-form
+
+    22. Schedule / #schedule
+        22.1. Schedule Body / .schedule-inner
+        22.2. Schedule Day / .schedule-day
+        22.2. Schedule Holl / .schedule-holl
+
+    23. CountDown / .count_down
+        23.1. CountDown Number / .counter
+        23.2. CountDown Title / .title
+
+    24. Counter-Up / .countdown-up
+        -- Same style in CountDown [ Index Number 23 ]
+
+
+    25. Blog Post / .blog-post-demo
+        25.1. Flex Slider / .flexslider
+            -- Same style in Flex Slider [ Index Number 19 ]
+
+    26. Partner Section / #partner
+        26.1. List Style / ul, ul li
+
+
+    ---------------------------------------------------------
+
+    [ Blog Section ]
+
+    27. Search Form / .search
+        27.1. Input Form / .imput-group
+        27.2. Button Style / button
+
+    28. Blog Post Header / .blog-post-header
+        28.1. Heading / .heading
+        28.2. Form / form
+        28.3. Blog Body / .blog-body
+            28.3.1. List Style / ul, ul li
+            28.3.2. 25.1. Flex Slider / .flexslider
+                -- Same style in Flex Slider [ Index Number 19 ]
+
+    29. Blog Left / .bolg-body-left
+        29.1. Pagination / .pagination
+
+    30. Blog post Detail / .post-detail
+        30.1. Post Option Detail / .blog-option
+
+    31. Blog Post Right / aside
+        31.1. Blog Post / .blog-post
+        31.2. Blog Post Counter / .post-counter
+        31.3. Blog Post Tags / .tags
+        31.4. Blog Post API gellary / .post-api-gelary
+        31.5. Recent Post / .recent-post
+        31.6. Single Image
+
+    32. Blog Single Page 
+        -- All Single Style Here.
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    main-color:         #3AC353 (ForestGreen)   [ This is the main color in Template ]
+    Background:         #ffffff (White)         [ Background color 1 ]
+    Background-1:       #F6F6F6                 [ Background color 2 ]
+    light-color-text:   rgb(102, 102, 102);     [ using text color and some ware ]
+    white-text:         #fff;                   [ using text color and some ware ]
+    border-color:       #EEEEF3;                [ Using border color ]
+
+
+
+[ This Templage Using 8 Different Coller Scheme ]
+    All of the color are same but ( main-color ) is Different.
+
+    main-color:
+    ---------------
+        1. forestGreen: #3AC353;
+        2. berry:       #e97a6d;
+        3. blue:        #009beb;
+        4. oliveDrab:   #4F3F76;
+        5. purple:      #914891;
+        6. slate:       #667388;
+        7. yellow:      #FE6767;
+        8. orange:      #f39c12;
+
+
+
+[ Using Color Code ]
+    h1 [ All ]      Color: #fff                     [ White ]
+    h2 [ Dark ]     Color: #fff                     [ White ]
+    h2 [ Light ]    Color: rgb(102, 102, 102)  
+    p  [ Dark ]     Color: rgba(255, 255, 255, 0.7) [ White 70% opacity ]
+    p  [ Light ]    Color: #666
+    a  [ Normal ]   Color: main-color               [ main-color is changed particular color scheme ]
+    a  [ Hover ]    color: #fff                     [ White ]
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+Body : 
+    font-family:    'Open Sans', sans-serif;
+    font-size:      15px;
+
+Header:
+    font-family:    "Montserrat", sans-serif;
+    font-size:      50px;
+
+h1:
+    font-family:    "Montserrat", sans-serif;
+    font-size:      50px;
+
+Section Heading:
+    font-family:    "Montserrat", sans-serif;
+    font-size:      30px;
+
+p:  
+    font-family:    'Open Sans', sans-serif;
+    font-size:      15px;
+
+
+Notes:  This Template Defult [ font-family:    'Open Sans', sans-serif; ] [ font-size:      15px; ]
+
+-------------------------------------------------------------------*/
+/**
+ * ===============================
+ *  Defult CSS 
+ * ===============================
+ */
+/**
+ * ===============================
+ * Our Work Section Style
+ * ===============================
+ */
+ 
+img{max-width:100%;width:auto\9;height:auto;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+.alignleft, img.alignleft {	margin-right: 1.5em;display: inline;float: left;}
+.alignright, img.alignright {margin-left: 1.5em;display: inline;float: right;}
+.aligncenter, img.aligncenter {margin-right: auto;margin-left: auto;display: block;clear: both;}
+ 
+ 
+ 
+#photogallary .section-header {
+  margin-bottom: 0px;
+}
+.mfp-title {
+  display: none;
+}
+.zoom-gallery ul li {
+  padding: 0px;
+}
+.zoom-gallery ul li img {
+  max-width: 100% !important;
+  height: auto;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  opacity: 0.8;
+}
+.zoom-gallery a {
+  padding: 0 !important;
+  overflow: hidden;
+  border: 1px solid #fff;
+  background-color: rgba(48, 133, 163, 0.72);
+}
+.zoom-gallery a:hover img {
+  webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.zoom-gallery a:after,
+.zoom-gallery a:before {
+  position: absolute;
+  -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.zoom-gallery a:before {
+  content: "\f002";
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -31px;
+  font-family: FontAwesome;
+  z-index: 2;
+  color: #fff;
+  font-size: 25px;
+  border: 1px solid #fff;
+  padding: 15px 18px;
+  opacity: 0;
+  webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+.zoom-gallery a:after {
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+.zoom-gallery a:hover:after,
+.zoom-gallery a:hover:before {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.zoom-gallery a:hover:before {
+  opacity: 1;
+  webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+#photogallary {
+  background-color: #ffffff;
+  padding:80px 0px 0px 0px;
+}
+.zoom-gallery a:after {
+  background-color: rgba(206, 21, 24, 0.69);
+}
+
+
+.nav{padding-left:0;margin-bottom:0;list-style:none}
+.nav>li{position:relative;display:block}
+.nav>li>a{position:relative;display:block;padding:10px 15px}
+.nav>li>a:focus,.nav>li>a:hover{text-decoration:none;background-color:#eee}
+.nav>li.disabled>a{color:#777}
+.nav>li.disabled>a:focus,.nav>li.disabled>a:hover{color:#777;text-decoration:none;cursor:not-allowed;background-color:transparent}.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{background-color:#eee;border-color:#337ab7}.nav .nav-divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5}.nav>li>a>img{max-width:none}
+
+
+/* Success Stories */
+.successStories{background:#ce1815 url(../img/successStories1.png) fixed; padding:10px  0px 50px 0px; background-size:cover; position:relative; width:100%; float:left;}
+.successStories h2 span{font-weight: 300;font-size: 34px;text-transform: uppercase;line-height:27px; text-align:center; color:#fff; margin-bottom:10px; display:block;}
+.successStories h2 {text-align:center; font-weight:bold; font-size:68px;text-transform: uppercase;line-height:90px; color:#fff; display:block; margin:20px 0px 40px 0px;}
+.successStories h5{font-weight: 300; font-size: 20px;line-height:24px; color:#fff; text-align:center; max-width:900px; margin:0 auto; margin-bottom:30px;}
+.testim{text-align:center; color:#fff;}
+.testim img{border-radius: 50%; -webkit-border-radius: 100px; -moz-border-radius: 100px; width:130px; height:130px; border:2px solid #000;}
+.testiTxt h3{display:block; font-size:18px; font-weight:bold;}
+.testiTxt h3 span{ display:block;  font-size:18px; font-weight:normal;}
+.testiTxt p{display:block; font-size:18px; font-weight:normal; max-width:800px; margin:0 auto 30px;}
+
+.borderDiv {
+    border: 1px #e2e2e2 solid;
+    padding: 20px;
+}
+.btn.btn-base-color {
+    background-color: #ed1c24;
+}
+.btn.btn-base-color {
+    color: #fff;
+}
+.btn.box-shadow, .button.box-shadow {
+    box-shadow: 0px 10px 35px -15px rgba(0,0,0,0.3);
+}
+
+ #slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 740px; 
+    height: 400px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: relative; 
+    /*top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 10px;*/
+}
+.bx-viewport {
+    overflow: visible!important;
+}
+
+.sliderpopup div{position:relative;}
+.sliderpopup .bx-wrapper .bx-viewport{min-height: 350px !important;overflow: visible; height: auto !important}
+.sliderpopup .bx-wrapper .bx-pager.bx-default-pager a{background:#ccc;}
+.sliderBx li{width:100% !important;}
+
+footer{float:left; width:100%;}
+
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #c0c0c0;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+#mainNav {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+    background-color: #0d0d0db5;
+}
+
+button.btn.btn-primary {
+    left: 49%;
+    position: absolute;
+}
